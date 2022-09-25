@@ -1,0 +1,29 @@
+%
+% Copyright (c) 2022 Rene Hampölz
+%
+% Use of this source code is governed by an MIT-style
+% license that can be found in the LICENSE file under
+% https://github.com/hampoelz/LaTeX-Template.
+%
+
+\typeout{Rene Hampölz, 2022}
+
+% ========================================
+%              Do not change!             
+% ========================================
+
+\usepackage{geometry}
+
+\geometry{top=20mm,bottom=25mm}
+
+\newcommand{\doctitle}[1]{                                      % ┝ include HTL-Weiz logo in title
+    \title{                                                     % |
+        {                                                       % |
+            \raisebox{-0.5\height}{                             % |
+                \includegraphics[height=2em]{images/logo.png}   % |
+            }                                                   % |
+            \hspace{1em}                                        % |
+            \raisebox{-0.5\height}{#1}                          % |
+        }                                                       % |
+    }                                                           % |
+}                                                               % |
