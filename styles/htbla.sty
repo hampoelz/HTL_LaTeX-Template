@@ -16,14 +16,17 @@
 
 \geometry{top=20mm,bottom=25mm}
 
+% usage: \doctitle{Title}
+%
 \newcommand{\doctitle}[1]{                                      % ┝ include HTL-Weiz logo in title
     \title{                                                     % |
-        {                                                       % |
-            \raisebox{-0.5\height}{                             % |
-                \includegraphics[height=2em]{images/logo.png}   % |
-            }                                                   % |
-            \hspace{1em}                                        % |
-            \raisebox{-0.5\height}{#1}                          % |
+        \parbox[c]{4.63em}{                                     % | 
+            \includegraphics[height=2em]{images/logo.png}       % | logo.png size: 347x150 (w=2.313*h)
+        }                                                       % |
+        \hspace{1em}                                            % |
+        \parbox[c]{0.9\linewidth-4.63em}{                       % |
+            \raggedright                                        % |
+            #1                                                  % |
         }                                                       % |
     }                                                           % |
 }                                                               % |
