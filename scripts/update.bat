@@ -27,7 +27,7 @@ set "tplver_file=.git\tplver"
 set "currbr_file=.git\currbr"
 
 :: commits ignored by cherry-pick (seperate with space)
-set "ignore_SHAs=9fa9fd2 f262f98"
+set "ignore_SHAs=9fa9fd2 f262f98 88825bb"
 
 
 set "hookmgr_path=scripts\hookmgr.bat"
