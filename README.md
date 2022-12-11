@@ -2,7 +2,7 @@
 
 ➡ **Vorkonfiguriertes LaTeX-Dokument** - _Optimiert für den [VS-Code](https://code.visualstudio.com/)-Editor und der [Git](https://git-scm.com/)/[Github](https://github.com/)-Versionskontrolle_
 
-> ℹ️ Dieses Repository basiert auf der Basis-Vorlage [`hampoelz/LaTeX-Template`](https://github.com/hampoelz/LaTeX-Template) mit Anpassungen für die HTL Weiz.
+> ℹ️ Dieses Projekt stellt Konfigurationen und Skripte bereit, um die Produktivität von Power-Usern zu steigern und Neulingen den Einstieg in LaTeX zu erleichtern. Es basiert auf der Basis-Vorlage [`hampoelz/LaTeX-Template`](https://github.com/hampoelz/LaTeX-Template) mit Anpassungen für die HTL Weiz.
 
 > ❗ Wichtiger Hinweis
 >
