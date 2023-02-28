@@ -143,7 +143,7 @@ exit
         set "installed_exts=!installed_exts! %%i"
     )
 
-    echo %installed_exts% | findstr "James-Yu.latex-workshop" | findstr "tecosaur.latex-utilities" | findstr "eamodio.gitlens" | findstr "streetsidesoftware.code-spell-checker" >nul 2>&1 || (
+    echo %installed_exts% | findstr "James-Yu.latex-workshop" | findstr "tecosaur.latex-utilities" | findstr "eamodio.gitlens" | findstr "streetsidesoftware.code-spell-checker" | findstr "streetsidesoftware.code-spell-checker-german" >nul 2>&1 || (
         echo.
         echo ========================================================
         echo    Install required and recommended VSCode extensions
@@ -154,6 +154,7 @@ exit
         call .\code --install-extension tecosaur.latex-utilities
         call .\code --install-extension eamodio.gitlens
         call .\code --install-extension streetsidesoftware.code-spell-checker
+        call .\code --install-extension streetsidesoftware.code-spell-checker-german
     )
     endlocal
     cd "%cwd_setup%"
